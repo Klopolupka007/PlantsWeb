@@ -18,7 +18,7 @@
 }
 
 #sidebarCollapse {
-  font-size: 1.5em;
+  font-size: 30%;
 }
 
 /* General style of switch items' list */
@@ -97,8 +97,11 @@
 .cbp-vm-view-grid .cbp-vm-price {
 	font-size: 1.5em;
 }
-.checkbox_text{
-  font-size: 1.3em;
+
+/*----Фильтр-----*/
+.btn-toggle-nav label {
+  font-size: 1.6em;
+  padding-left: 1em;
 }
 
 @media (max-width: 767px) {
