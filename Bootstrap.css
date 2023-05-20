@@ -8,9 +8,17 @@
 .cbp-vm-options {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding-bottom: 4vw;
+  text-align: center;
   border-bottom: 3px solid #C5CCAA;
+}
+
+.cbp-vm-options h1 {
+  margin: 0 auto;
+}
+
+#sidebarCollapse {
+  font-size: 1.5em;
 }
 
 /* General style of switch items' list */
@@ -58,7 +66,7 @@
 
 /* Large grid view */
 .cbp-vm-view-grid ul {
-	text-align: left;
+  text-align: center;
 }
 .cbp-vm-view-grid ul li {
   height: 20em;
@@ -140,6 +148,127 @@
     width: 150%;
   }
 }
+/*
+-------Модальное окно------
+*/
+
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  visibility: hidden;
+  /* фон затемнения */
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  position: fixed; /* фиксированное поцизионирование */
+  cursor: default; /* тип курсара */
+  -webkit-transition: opacity .5s;
+  -moz-transition: opacity .5s;
+  -ms-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  transition: opacity .5s;
+  }
+  .overlay:target {
+  visibility: visible;
+  opacity: 1;
+  }
+  .is-image {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display:block;
+  margin: 10%;
+  width: 100%;
+  height: auto;
+  /* скругление углов встроенных картинок */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  }
+  /* встроенные элементы м-медиа, фреймы */
+  embed, iframe {
+  top: 0;
+  right: 0;
+  bottom: 0; 
+  left: 0; 
+  display:block;
+  margin: auto;
+  min-width: 320px;
+  max-width: 600px;
+  width: 100%;
+  }
+  .popup h1 { /* заголовок 1 */
+  color: #008000;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
+  font:24px 'Trebuchet MS', Helvetica, sans-serif;
+  font-weight: bold;
+  }
+  .popup h2 { /* заголовок 2 */
+  color: #008000;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
+  font:22px 'Trebuchet MS', Helvetica, sans-serif;
+  }
+  /*** Формируем стили модального окна ***/
+  .popup {
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 14px;
+  z-index: 10;
+  display: block;
+  visibility: hidden;
+  margin: 0 auto;
+  width: 90%;
+  min-width: 320px;
+  max-width: 600px;
+  /* фиксированное позиционирование, окно стабильно при прокрутке */
+  position: fixed;
+  padding: 15px;
+  border: 1px solid #383838;
+  /* скругление углов */
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  /* внешняя тень блока */
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  -ms-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  -o-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.8);
+  /* полная прозрачность окна, появление при клике */
+  opacity: 0;
+  /* эффект перехода (появление) */
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+  -ms-transition: all ease .5s;
+  -o-transition: all ease .5s;
+  transition: all ease .5s;
+  }
+  /* активируем появление окна и затемнение фона */
+  .overlay:target+.popup {
+  top: 20%; /* положение окна от верха страницы при появлении */
+  visibility: visible;
+  opacity: 1; /* убираем прозрачность */
+  }
+  /* опционально при добавлении вложений */
+  .popup p, .popup div {
+  margin-bottom: 10px;
+  }
+.modal h1{
+  margin:0;
+}
+.modal p{
+  font-size: 2em;
+  opacity: 0.7;
+}*/
 /*-----Slide menu-----*/
 /* ---------------------------------------------------
     OFFCANVAS ESSENTIALS
@@ -319,4 +448,35 @@ input[type="text"]::placeholder{
   top: 50%;
   left: 3%;
   transform: translateY(-45%);
+}
+
+/*
+
+----Scroll Button----
+
+*/
+#podnyatiye_kontenta {
+  display: none;
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 1000;
+  width: 31px;
+  height: 31px;
+  background: url(http://zornet.ru/CSS-ZORNET/Kodak_saita/Asvaged/dekulased/scroll_top.png) 50% 50% no-repeat;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+#podnyatiye_kontenta:hover {
+  opacity: 1;
+}
+
+.opisaniye {
+  width: 600px;
+  margin: 0 auto;
+}
+p {
+  color: #7d7a7a;
+  font-size: 18px;
+  line-height: 23px;
 }
