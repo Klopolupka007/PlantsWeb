@@ -191,7 +191,36 @@
 				<li class="mb-1 mt-2">
 					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false"> Типы почв </button>
 					<div class="collapse" id="dashboard-collapse">
-						<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small"> </ul>
+						<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Московская область" /> Подзолистый </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Санкт-Петербург" /> Песчаный </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Чернозем </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Лесной </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Болотный </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Луговой </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Тундровый </label>
+							</li>
+						</ul>
 					</div>
 				</li>
 				<li class="border-top my-3"></li>
@@ -200,7 +229,7 @@
 					<div class="collapse" id="daylength-collapse">
 						<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
 							<li>
-								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#winter-daylength" role="button" aria-expanded="false" aria-controls="winter-daylength">Долгота дня зимой</a>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#winter-daylength" role="button" aria-expanded="false" aria-controls="winter-daylength">— Долгота дня зимой</a>
 								<div class="collapse" id="winter-daylength">
 									<div class="row mt-2">
 										<div class="col">
@@ -210,7 +239,7 @@
 								</div>
 							</li>
 						   <li>
-								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#spring-daylength" role="button" aria-expanded="false" aria-controls="spring-daylength">Долгота дня весной</a>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#spring-daylength" role="button" aria-expanded="false" aria-controls="spring-daylength">— Долгота дня весной</a>
 								<div class="collapse" id="spring-daylength">
 									<div class="row mt-2">
 										<div class="col">
@@ -220,7 +249,7 @@
 								</div>
 							</li>
 							<li>
-								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#summer-daylength" role="button" aria-expanded="false" aria-controls="summer-daylength">Долгота дня летом</a>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#summer-daylength" role="button" aria-expanded="false" aria-controls="summer-daylength">— Долгота дня летом</a>
 								<div class="collapse" id="summer-daylength">
 									<div class="row mt-2">
 										<div class="col">
@@ -230,7 +259,7 @@
 								</div>
 							</li>
 							<li>
-								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#autumn-daylength" role="button" aria-expanded="false" aria-controls="autumn-daylength">Долгота дня осенью</a>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#autumn-daylength" role="button" aria-expanded="false" aria-controls="autumn-daylength">— Долгота дня осенью</a>
 								<div class="collapse" id="autumn-daylength">
 									<div class="row mt-2">
                         				<div class="col">
@@ -247,11 +276,35 @@
 					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false"> Данные о культуре </button>
 					<div class="collapse" id="account-collapse">
 						<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-							<li><a href="" class="rounded">Период посева, мес:</a></li>
-							<li><a href="" class="rounded">Период сбора урожая, мес:</a></li>
-							<li><a href="" class="rounded">Содержание БАВ, хим состав</a></li>
+						   <li>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#spring-daylength" role="button" aria-expanded="false" aria-controls="spring-daylength">— Период посева, мес.</a>
+								<div class="collapse" id="spring-daylength">
+									<div class="row mt-2">
+										<div class="col">
+											<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Месяц">
+										</div>
+									</div>
+								</div>
+							</li>
 							<li>
-								<a href="" class="rounded"></a>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#spring-daylength" role="button" aria-expanded="false" aria-controls="spring-daylength">— Период сбора урожая, мес.</a>
+								<div class="collapse" id="spring-daylength">
+									<div class="row mt-2">
+										<div class="col">
+											<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Месяц">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#spring-daylength" role="button" aria-expanded="false" aria-controls="spring-daylength">— Содержание БАВ, хим. состав</a>
+								<div class="collapse" id="spring-daylength">
+									<div class="row mt-2">
+										<div class="col">
+											<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Хим. состав">
+										</div>
+									</div>
+								</div>
 							</li>
 						</ul>
 					</div>

@@ -103,11 +103,17 @@
   font-size: 1.6em;
   padding-left: 1em;
 }
-col label{
-  font-size: 1em;
-  padding-left: 1em;
+.btn-toggle-nav li {
+  margin-bottom: 1.5em;
 }
 
+.btn-toggle-nav input{
+  margin-bottom: 1em;
+  min-height: 2vh;
+  max-width: 20vw;
+  font-size: 14px;
+}
+/* ----- Настройки разных диспелеев -----*/
 @media (max-width: 767px) {
   h1 {
     font-size: 20px;
@@ -154,6 +160,7 @@ col label{
   .btn-toggle::before {
     width: 150%;
   }
+  
 }
 /*
 -------Модальное окно------
