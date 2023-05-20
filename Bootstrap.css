@@ -1,7 +1,7 @@
 /* Main container */
 .cbp-vm-switcher {
 	padding: 10px;
-	border: 3px solid #C5CCAA;
+	border: 3px solid #536800;
 }
 
 /* options/select wrapper with switch anchors */
@@ -87,6 +87,9 @@
 .cbp-vm-view-grid .cbp-vm-price {
 	font-size: 1.5em;
 }
+.checkbox_text{
+  font-size: 1.3em;
+}
 
 @media (max-width: 767px) {
   h1 {
@@ -124,19 +127,26 @@
 }
 @media screen and (max-width: 540px) {
   nav#offcanvas button {
-    font-size: 70%;
+    font-size: 73%;
   }
   .btn-toggle::before {
     width: 70%;
   }
 }
-
+@media screen and (max-width: 1080px) and (min-height: 1000px) {
+  nav#offcanvas button {
+    font-size: 150%;
+  }
+  .btn-toggle::before {
+    width: 150%;
+  }
+}
 /*-----Slide menu-----*/
 /* ---------------------------------------------------
     OFFCANVAS ESSENTIALS
 ----------------------------------------------------- */
 .offcanvas-start {
-  width: 45%;
+  width: 70%;
 }
 /* Desktop view */
 @media (min-width: 576px) {
