@@ -48,7 +48,7 @@
   width: 20px;
 	background: #C5CCAA;
 	padding: 10px 5px;
-	border-radius: 2px;
+	border-radius: 5px;
 	margin: 20px 0 0;
 	display: inline-block;
 	transition: background 0.2s;
@@ -64,14 +64,15 @@
   height: 20em;
   text-align: center;
   background-color: #C5CCAA;
-  border: 3px solid #dde6b5;
+  /*border: 1px solid #000000;*/
   margin: 1.5em 1.2vw;
   display: inline-block;
   min-height: 1vw;
   max-height: 20%;
-  background-color: #C5CCAA;
+  border-radius: 8px;
+  background-color: #c5ccaa00;
   max-width: 13em;
-  box-shadow: 1vw 1vw 0.01px #5E735F;
+  background-color: #39393958;
 }
 
 .cbp-vm-view-grid .cbp-vm-title {
