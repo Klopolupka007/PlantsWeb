@@ -45,7 +45,6 @@
 }
 
 .cbp-vm-add {
-	color: #fff;
   width: 20px;
 	background: #C5CCAA;
 	padding: 10px 5px;
@@ -66,7 +65,7 @@
   text-align: center;
   background-color: #C5CCAA;
   border: 3px solid #dde6b5;
-  margin: 1.5em 0.5vw;
+  margin: 1.5em 1.2vw;
   display: inline-block;
   min-height: 1vw;
   max-height: 20%;
@@ -95,6 +94,9 @@
   }
   .cbp-vm-view-grid ul {
     text-align: center;
+  }
+  .cbp-vm-view-grid ul li {
+    box-shadow: 3vw 3vw 0.01px #5E735F;
   }
 }
 
@@ -222,11 +224,6 @@
   pointer-events: none;
   fill: currentColor;
 }
-
-.span{
-  color: red;
-}
-
 .btn-toggle {
   display: inline-flex;
   align-items: center;
@@ -239,7 +236,7 @@
 .btn-toggle:hover,
 .btn-toggle:focus {
   color: rgba(0, 0, 0, .85);
-  background-color: #e5e5e5;
+  background-color: #C5CCAA;
 }
 .btn-toggle::before {
   width: 1.25em;
@@ -263,7 +260,7 @@
 }
 .btn-toggle-nav a:hover,
 .btn-toggle-nav a:focus {
-  background-color: #e5e5e5;
+  background-color: #C5CCAA;
 }
 .btn-toggle-nav a.active {
   font-weight: bold;
@@ -274,11 +271,35 @@
 ----------------------------------------------------- */
 .offcanvas-header {
   background-color: #C5CCAA!important;
-  color: white!important;
+  color: #dde6b5!important;
+}
+.offcanvas-title {
+  color: #5E735F;
 }
 
 
-
 /*
-      Кнопка подробности
+      Фильтры
 */
+
+input[type="text"] {
+  position: absolute;
+  width: 70%;
+  height: 1vw;
+  background-color: rgba(255, 255, 255, 0);
+  left: 10%;
+  font-size: 100%;
+  font-family: "Palatino Linotype";
+  border: none;
+  outline: none;
+  caret-color: #546954;
+  color: #546954;
+}
+input[type="text"]::placeholder{
+  font-size: 100%;
+  position: absolute;
+  font-family: "Palatino Linotype";
+  top: 50%;
+  left: 3%;
+  transform: translateY(-45%);
+}

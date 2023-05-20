@@ -58,5 +58,5 @@ input[type="text"]::placeholder{
     font-family: "Palatino Linotype";
     top: 50%;
     left: 3%;
-    transform: translateY(-50%);
+    transform: translateY(-45%);
 }

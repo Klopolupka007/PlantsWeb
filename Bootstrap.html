@@ -82,28 +82,37 @@
             <nav class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="true" data-bs-scroll="true">
                 <div class="offcanvas-header border-bottom">
                 <a href="/" class="d-flex align-items-center text-decoration-none offcanvas-title d-sm-block">
-                <h3>
+                <h3 class="h3">
                 <i class="bi bi-chat-right-text-fill"></i>
-                Sidebar
+                Фильтры
                 </h3>
                 </a>
                 </div>
                 <div class="offcanvas-body px-0">
                 <ul class="list-unstyled ps-0">
-                <li class="mb-1">
+                    <input type="text" placeholder="Введите название растения" id="search_text">
+                    <script> var input = document.getElementById("search_text");
+                    input.addEventListener("keyup", function(event) {
+                      if (event.keyCode === 13) {
+                        event.preventDefault();
+                        getValue();
+                      }
+                    });
+                    function getValue() {
+                          var userInput = input.value;
+                    } </script>    <li class="mb-1">
                 <button
                 class="btn btn-toggle align-items-center rounded"
                 data-bs-toggle="collapse"
                 data-bs-target="#home-collapse"
                 aria-expanded="true"
                 >
-                Home
+                Географические данные
                 </button>
                 <div class="collapse show" id="home-collapse" style="">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="/" class="rounded">Overview</a></li>
-                <li><a href="#" class="rounded">Updates</a></li>
-                <li><a href="#" class="rounded">Reports</a></li>
+                <li><a href="" class="rounded">Ареалы произростания</a></li>
+                <li><a href="" class="rounded">Субъекты РФ</a></li>
                 </ul>
                 </div>
                 </li>
@@ -114,14 +123,10 @@
                 data-bs-target="#dashboard-collapse"
                 aria-expanded="false"
                 >
-                Dashboard
+                Типы почв
                 </button>
                 <div class="collapse" id="dashboard-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="rounded">Overview</a></li>
-                <li><a href="#" class="rounded">Weekly</a></li>
-                <li><a href="#" class="rounded">Monthly</a></li>
-                <li><a href="#" class="rounded">Annually</a></li>
                 </ul>
                 </div>
                 </li>
@@ -132,14 +137,15 @@
                 data-bs-target="#orders-collapse"
                 aria-expanded="false"
                 >
-                Orders
+                Данные о световом режиме
                 </button>
                 <div class="collapse" id="orders-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="rounded">New</a></li>
-                <li><a href="#" class="rounded">Processed</a></li>
-                <li><a href="#" class="rounded">Shipped</a></li>
-                <li><a href="#" class="rounded">Returned</a></li>
+                <li><a href="" class="rounded">Долгота дня зимой:</a></li>
+                <li><a href="" class="rounded">Долгота дня весной:</a></li>
+                <li><a href="" class="rounded">Долгота дня летом:</a></li>
+                <li><a href="" class="rounded">Долгота дня осенью:</a></li>
+                <li><a href="" class="rounded">Количество световых дней:</a></li>
                 </ul>
                 </div>
                 </li>
@@ -151,14 +157,14 @@
                 data-bs-target="#account-collapse"
                 aria-expanded="false"
                 >
-                Account
+                Данные о культуре
                 </button>
                 <div class="collapse" id="account-collapse">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="rounded">New...</a></li>
-                <li><a href="#" class="rounded">Profile</a></li>
-                <li><a href="#" class="rounded">Settings</a></li>
-                <li><a href="#" class="rounded">Sign out</a></li>
+                <li><a href="" class="rounded">Период посева, мес:</a></li>
+                <li><a href="" class="rounded">Период сбора урожая, мес:</a></li>
+                <li><a href="" class="rounded">Содержание БАВ, хим состав</a></li>
+                <li><a href="" class="rounded"></a></li>
                 </ul>
                 </div>
                 </li>
