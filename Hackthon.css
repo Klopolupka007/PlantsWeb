@@ -4,26 +4,77 @@
 	border: 3px solid #536800;
 }
 
-/* options/select wrapper with switch anchors */
+/* # Настройка search # */
 .cbp-vm-options {
   display: flex;
   border-bottom: 3px solid #C5CCAA;
 }
 .container-header-search{
   display: flex;
+  margin-left: 50%;
+  vertical-align: middle;
 }
 
-.search_rectangle_header{
-  
+.search_rectangle_header {
+  vertical-align: middle;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 1em;
+  margin-left: 1em;
+  position: relative;
+  border-radius: 100px;
 }
+
+.search_rectangle_header input[type="text"] {
+  font-size: 100%;
+  width: 85%;
+  height: 3em;
+  border: none;
+  outline: none;
+  flex: 1;
+  position: absolute;
+  background-color: transparent;
+  order: 0;
+}
+
+.search_operation_header {
+  background-color: #46ce51;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 10%;
+  height: 2em;
+  min-height: 2vh;
+  max-height: 3vh;
+  border-radius: 100px;
+  cursor: pointer;
+  order: -1;
+  text-align: center;
+  margin-left: 49%;
+  margin-top: 3%;
+  transition: background-color 0.5s;
+  font-size: 100%;
+}
+
+.search_operation:active {
+  background-color: #999;
+}
+/* # Настройка h1 и иконки меню # */
 
 .cbp-vm-options h1 {
-  vertical-align: middle;
   text-align: left;
+  height: 60%;
+  margin-top: 1.4%;
+  margin-left: 1%;
+  vertical-align: middle;
 }
 
 #sidebarCollapse {
   font-size: 30%;
+  margin-left: 20%;
 }
 
 /* General style of switch items' list */
@@ -387,7 +438,8 @@
     SIDEBAR STYLES
 ----------------------------------------------------- */
 .bi {
-  vertical-align: -.125em;
+  vertical-align: middle;
+  text-align: center;
   pointer-events: none;
   fill: currentColor;
 }
@@ -439,9 +491,11 @@
 .offcanvas-header {
   background-color: #C5CCAA!important;
   color: #dde6b5!important;
+  text-align: center;
 }
 .offcanvas-title {
   color: #5E735F;
+
 }
 
 .search_rectangle {
