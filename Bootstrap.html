@@ -82,25 +82,29 @@
             <nav class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="true" data-bs-scroll="true">
                 <div class="offcanvas-header border-bottom">
                 <a href="/" class="d-flex align-items-center text-decoration-none offcanvas-title d-sm-block">
-                <h3 class="h3">
+                <h1>
                 <i class="bi bi-chat-right-text-fill"></i>
                 Фильтры
-                </h3>
+                </h1>
                 </a>
                 </div>
                 <div class="offcanvas-body px-0">
                 <ul class="list-unstyled ps-0">
-                    <input type="text" placeholder="Введите название растения" id="search_text">
-                    <script> var input = document.getElementById("search_text");
-                    input.addEventListener("keyup", function(event) {
-                      if (event.keyCode === 13) {
-                        event.preventDefault();
-                        getValue();
-                      }
-                    });
-                    function getValue() {
-                          var userInput = input.value;
-                    } </script>    <li class="mb-1">
+                    <li class="mb-1">
+                        <input type="text" placeholder="Введите название растения" id="search_text">
+                        <script>
+                            var input = document.getElementById("search_text");
+                            input.addEventListener("keyup", function(event) {
+                                if (event.keyCode === 13) {
+                                    event.preventDefault();
+                                    getValue();
+                                }
+                            });
+                            function getValue() {
+                                var userInput = input.value;
+                            }
+                        </script>    
+                    <li class="mb-1 mt-2">
                 <button
                 class="btn btn-toggle align-items-center rounded"
                 data-bs-toggle="collapse"
@@ -111,12 +115,67 @@
                 </button>
                 <div class="collapse show" id="home-collapse" style="">
                 <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="" class="rounded">Ареалы произростания</a></li>
-                <li><a href="" class="rounded">Субъекты РФ</a></li>
-                </ul>
+                    <li>
+                        <button class="btn btn-toggle align-items-center rounded"
+                            data-bs-toggle="collapse" data-bs-target="#areal-collapse"
+                            aria-expanded="false">
+                            Ареалы произростания
+                        </button>
+                        <div class="collapse" id="areal-collapse">
+                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                <li>
+                                    <label>
+                                        <input type="checkbox" name="areal" value="Европа" />
+                                        Европа
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="checkbox" name="areal" value="Азия" />
+                                        Азия
+                                    </label>
+                                </li>
+                                <li>
+                                    <label>
+                                        <input type="checkbox" name="areal" value="Африка" />
+                                        Африка
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <button class="btn btn-toggle align-items-center rounded"
+                    data-bs-toggle="collapse" data-bs-target="#subject-collapse"
+                    aria-expanded="false">
+                    Субъекты РФ
+                </button>
+                <div class="collapse" id="subject-collapse">
+                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                        <li>
+                            <label>
+                                <input type="checkbox" name="subject" value="Московская область" />
+                                Московская область
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="subject" value="Санкт-Петербург" />
+                                Санкт-Петербург
+                            </label>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox" name="subject" value="Краснодарский край" />
+                                Краснодарский край
+                            </label>
+                        </li>
+                    </ul>
                 </div>
-                </li>
-                <li class="mb-1">
+            </li>
+        </ul>
+    </div>
+</li>
+                <li class="mb-1 mt-2">
                 <button
                 class="btn btn-toggle align-items-center rounded collapsed"
                 data-bs-toggle="collapse"
@@ -130,7 +189,8 @@
                 </ul>
                 </div>
                 </li>
-                <li class="mb-1">
+                <li class="border-top my-3"></li>
+                <li class="mb-1 mt-2">
                 <button
                 class="btn btn-toggle align-items-center rounded collapsed"
                 data-bs-toggle="collapse"
@@ -150,7 +210,7 @@
                 </div>
                 </li>
                 <li class="border-top my-3"></li>
-                <li class="mb-1">
+                <li class="mb-1 mt-2">
                 <button
                 class="btn btn-toggle align-items-center rounded collapsed"
                 data-bs-toggle="collapse"

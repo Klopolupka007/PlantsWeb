@@ -122,6 +122,14 @@
 		width: 100%;
 	}
 }
+@media screen and (max-width: 540px) {
+  nav#offcanvas button {
+    font-size: 70%;
+  }
+  .btn-toggle::before {
+    width: 70%;
+  }
+}
 
 /*-----Slide menu-----*/
 /* ---------------------------------------------------
@@ -253,9 +261,9 @@
 }
 .btn-toggle-nav a {
   display: inline-flex;
-  padding: .1875rem .5rem;
+  padding: .1875rem .7rem;
   margin-top: .125rem;
-  margin-left: 1.25rem;
+  margin-left: 1.5rem;
   text-decoration: none;
 }
 .btn-toggle-nav a:hover,
