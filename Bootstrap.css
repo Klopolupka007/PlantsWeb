@@ -4,43 +4,264 @@
   grid-gap: 1em;
   grid-auto-rows: minmax(50px, auto);
 }
-.grid-container > div.logo{
-}
-.grid-container > div.rectangle-1{
+.rectangle-1{
   padding: 0em;
   display: grid;
-  border-radius: 10px;
+  background-color: #C5CCAA;
 }
-.grid-container > div.rectangle-2{
-  padding: 2em;
-  background-color: white;
-  border-radius: 10px;
-}
-.grid-container > div.rectangle-3{
-  padding: 2em;
-  display: grid;
-  background-color: white;
-  border-radius: 10px;
-}
-.rectangle-1-sub{
-  padding: 1em;
-  background-color: white;
-  border-radius: 10px;
-  display: flex;
-
-}
-
-/*.Найдено-результатов{
-  background-color: bisque;
-}*/
-.Сортировать{
-  padding-left: 2em;
-}
-.Показать{
-  padding-left: 10em;
+.rectangle-2{
+  background-color: #C5CCAA;
 }
 .rectangle-1-sub img {
   width: 1em;
   height: 1em;
   padding-left: 2em;
+}
+
+
+/*--------------*/
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome/fontawesome.eot');
+	src:url('../fonts/fontawesome/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome/fontawesome.ttf') format('truetype'),
+		url('../fonts/fontawesome/fontawesome.svg#fontawesome') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Main container */
+.cbp-vm-switcher {
+	padding: 20px;
+	border: 3px solid #C5CCAA;
+}
+
+/* options/select wrapper with switch anchors */
+.cbp-vm-options {
+	text-align: right;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #C5CCAA;
+}
+
+.cbp-vm-options a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #d0d0d0;
+	margin: 2px;
+}
+
+.cbp-vm-options a:hover,
+.cbp-vm-options a.cbp-vm-selected {
+	color: #C5CCAA;
+}
+
+.cbp-vm-options a:before {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+}
+
+/* General style of switch items' list */
+
+.cbp-vm-switcher ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clear eventual floats */
+.cbp-vm-switcher ul:before, 
+.cbp-vm-switcher ul:after { 
+	content: " "; 
+	display: table; 
+}
+
+.cbp-vm-switcher ul:after { 
+	clear: both; 
+}
+
+.cbp-vm-switcher ul li {
+	display: block;
+	position: relative;
+}
+.cbp-vm-image{
+  background-color: #C5CCAA;
+}
+
+
+.cbp-vm-price {
+	color: #c0c0c0;
+}
+
+.cbp-vm-add {
+	color: #fff;
+	background: #C5CCAA;
+	padding: 10px 20px;
+	margin: 20px 0 0;
+	display: inline-block;
+	transition: background 0.2s;
+}
+
+.cbp-vm-add:hover {
+	color: #fff;
+	background: #C5CCAA;
+}
+
+.cbp-vm-add:before {
+	margin-right: 5px;
+}
+
+/* Common icon styles */
+.cbp-vm-icon:before {
+	font-family: 'fontawesome';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.cbp-vm-grid:before {
+	content: "\f00a";
+}
+
+.cbp-vm-list:before {
+	content: "\f00b";
+}
+
+.cbp-vm-add:before {
+	content: "\f055";
+}
+
+/* Individual view mode styles */
+
+/* Large grid view */
+.cbp-vm-view-grid ul {
+	text-align: left;
+  padding-left: 1em;
+}
+
+.block{
+  text-align: left;
+  background-color: #C5CCAA;
+  border: 3px solid #C5CCAA;
+}
+
+.cbp-vm-view-grid ul li {
+	width: 15em;
+	text-align: center;
+	padding: 1em;
+	margin: 1em;
+	display: inline-block;
+	min-height: 5em;
+	vertical-align: top;
+}
+
+.cbp-vm-view-grid .cbp-vm-title {
+  text-align: center;
+	font-size: 1.5em;
+}
+
+.cbp-vm-view-grid .cbp-vm-details {
+  text-align: center;
+  font-size: 1em;
+	margin: 0 auto;
+} 
+
+.cbp-vm-view-grid .cbp-vm-price {
+  text-align: center;
+	margin: 1em 0;
+	font-size: 1.2em;
+}
+
+
+/* List view */
+.cbp-vm-view-list li {
+	padding: 20px 0;
+
+}
+
+.cbp-vm-view-list .cbp-vm-image,
+.cbp-vm-view-list .cbp-vm-title,
+.cbp-vm-view-list .cbp-vm-details,
+.cbp-vm-view-list .cbp-vm-price,
+.cbp-vm-view-list .cbp-vm-add {
+	display: inline-block;
+
+}
+
+.cbp-vm-view-list .cbp-vm-image {
+  width: 10%;
+  background-color: white; /* добавляем белый фон для изображения */
+  text-align: left; /* выравниваем изображение по левому краю */
+}
+
+.cbp-vm-view-list .cbp-vm-title {
+	font-size: 1.3em;
+	padding: 0 10px;
+	white-space: normal;
+	width: 23%;
+}
+
+.cbp-vm-view-list .cbp-vm-price {
+	font-size: 1.3em;
+	width: 10%;
+}
+
+.cbp-vm-view-list .cbp-vm-details {
+	width: 40%;
+	padding: 0 15px;
+	overflow: hidden;
+	white-space: normal;
+}
+
+.cbp-vm-view-list .cbp-vm-add {
+	margin: 0;
+}
+
+@media screen and (max-width: 66.7em) {
+	.cbp-vm-view-list .cbp-vm-details  {
+		width: 30%;
+	}
+} 
+
+@media screen and (max-width: 57em) {
+	.cbp-vm-view-grid ul li {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 47.375em) {
+	.cbp-vm-view-list .cbp-vm-image {
+		width: 20%;
+	}
+
+	.cbp-vm-view-list .cbp-vm-title {
+		width: auto;
+	}
+
+	.cbp-vm-view-list .cbp-vm-details  {
+		display: block;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.cbp-vm-view-list .cbp-vm-add  {
+		margin: 10px;
+	}
+}
+
+@media screen and (max-width: 40.125em) {
+	.cbp-vm-view-grid ul li {
+		width: 100%;
+	}
 }
