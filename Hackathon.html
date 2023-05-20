@@ -14,7 +14,12 @@
 		<div id="cbp-vm" class="cbp-vm-switcher cbp-vm-view-grid">
             <div class="cbp-vm-options" style="margin-bottom: -10px;">
                 <h1 class="h1"><b>ЛЕКАРСТВЕННЫЕ РАСТЕНИЯ</h1>
-                <button id="sidebarCollapse" class="float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button" aria-label="Toggle menu"> <span class="span"></span> <span></span> <span></span> <span></span> </div>
+					<div class="search_rectangle">
+						<input type="text" placeholder="Введите название растения" class="search_button_1" id="search_text">
+					</div>
+				<button class="search_operation" onclick="Search()">Принять фильтры</button>
+                <button id="search_image" class="search" src="/search.png">
+				<button id="sidebarCollapse" class="float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button" aria-label="Toggle menu"> <span class="span"></span> <span></span> <span></span> <span></span> </div>
 			<ul>
 				<li class="block"> <img src="images/1.png">
 					<h3 class="cbp-vm-title">Растение 1</h3>
@@ -36,7 +41,7 @@
 					<!--Trigger-->
 					<div><u>Подробнее</u></div>
 				</li>
-				<li class="block"> <img src="images/1.png">
+				<li class="block"> <img src="images/image-015.jpg" width="165" height="180">
 					<h3 class="cbp-vm-title">Растение 4</h3>
 					<div class="cbp-vm-price">89 руб</div>
 					<!--Trigger-->
@@ -120,7 +125,7 @@
 	<!-- /main -->
 	<nav class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="true" data-bs-scroll="true">
 		<div class="offcanvas-header border-bottom">
-			<a href="" class="d-flex align-items-center text-decoration-none offcanvas-title d-sm-block">
+			<a class="d-flex align-items-center text-decoration-none offcanvas-title d-sm-block">
 				<h1>
                 <i class="bi bi-chat-right-text-fill"></i>
                 Фильтры
@@ -145,7 +150,7 @@
 					</script>-->
 					<li class="mb-1 mt-2">
 						<button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false"> Географические данные </button>
-						<div class="collapse show" id="home-collapse" style="">
+						<div class="collapse show" id="home-collapse">
 							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
 								<li>
 									<button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#areal-collapse" aria-expanded="false"> Ареалы произростания </button>
@@ -231,9 +236,9 @@
 							<li>
 								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#winter-daylength" role="button" aria-expanded="false" aria-controls="winter-daylength">— Долгота дня зимой</a>
 								<div class="collapse" id="winter-daylength">
-									<div class="row mt-2">
+									<div class="row mt-2 align-items-center">
 										<div class="col">
-											<input type="text" id="winter-daylength-input" class="form-control rounded" placeholder="Часы">
+											<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Часы">
 										</div>
 									</div>
 								</div>
@@ -310,6 +315,10 @@
 					</div>
 				</li>
 				<li class="border-top my-3"></li>
+				<div class="search_rectangle">
+					<input type="text" placeholder="Введите название растения" class="search_button_1" id="search_text">
+				</div>
+				<button class="search_operation" onclick="Search()">Принять фильтры</button>
 			</ul>
 		</div>
 	</nav>

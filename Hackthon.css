@@ -9,12 +9,12 @@
   display: flex;
   align-items: center;
   padding-bottom: 4vw;
-  text-align: center;
   border-bottom: 3px solid #C5CCAA;
 }
 
 .cbp-vm-options h1 {
-  margin: 0 auto;
+  margin-left: 30%;
+  text-align: center;
 }
 
 #sidebarCollapse {
@@ -34,12 +34,13 @@
 
 .cbp-vm-image {
   max-width: 1vw;
-	margin: 2em 0;
+	margin: 2em 10px;
 }
 
 .cbp-vm-image img {
 	display: inline-block;
-  
+  max-width: 50%;
+  max-height: 50%;
 	border: none;
 }
 
@@ -86,6 +87,7 @@
 
 .cbp-vm-view-grid .cbp-vm-title {
 	font-size: 1.5em;
+  margin-top: 1em;
 }
 
 .cbp-vm-view-grid .cbp-vm-details {
@@ -437,6 +439,53 @@
   color: #5E735F;
 }
 
+.search_rectangle {
+  margin-top: 1em;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 1em;
+  margin-left: 1em;
+  position: relative;
+  border-radius: 100px;
+}
+
+.search_rectangle input[type="text"] {
+  font-size: 100%;
+  width: 85%;
+  height: 3em;
+  border: none;
+  outline: none;
+  flex: 1;
+  position: absolute;
+  background-color: transparent;
+  order: 0;
+}
+
+.search_operation {
+  background-color: #46ce51;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 40%;
+  height: 2em;
+  min-height: 2vh;
+  max-height: 3vh;
+  border-radius: 100px;
+  cursor: pointer;
+  order: -1;
+  text-align: center;
+  margin-left: 49%;
+  margin-top: 3%;
+  transition: background-color 0.5s;
+  font-size: 100%;
+}
+
+.search_operation:active {
+  background-color: #999;
+}
 
 /*
       Фильтры
