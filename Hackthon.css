@@ -46,6 +46,10 @@
   background-color: transparent;
 }
 
+.block img{
+  border-radius: 8px;
+}
+
 .search_operation_header {
   background-color: #46ce51;
   color: #fff;
