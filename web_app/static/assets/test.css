@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Palatino Linotype";
+    src: url("./assets/fonts/palatinolinotype_roman.ttf") format("ttf");
+    font-style: bold;
+    }
+@font-face {
+    font-family: "Palatino Linotype";
+    src: url("./assets/fonts/Palatino\ LT\ Roman.ttf") format("ttf");
+    font-style: normal;
+    }    
+h1 {
+    font-size: 56px;
+    font-family: "Palatino Linotype";
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #0D2123;
+    margin-top: 150px;
+    line-height: 1.01;
+    user-select: none;
+}
+h2 {
+    font-size: 20px;
+    font-family: "Palatino Linotype";
+    font-style: normal;
+    margin-top: -30px;
+    color: #0D2123;
+    line-height: 1.01;
+    user-select: none;
+}
+.rectangle {
+    width: 800px;
+    height: 50px;
+    margin: 30px auto 0;
+    background-color: #C5CCAA;
+    border-radius: 100px;
+    border: 1.5px solid #E7F0C8;
+    position: relative;
+    box-shadow: 3px 5px 1px #5E735F;
+}
+.rectangle img {
+    width: 35px;
+    height: 35px;
+    margin-left: 13px;
+    margin-top: 9px;
+    user-select: none;
+}
+
+input[type="text"] {
+    position: absolute;
+    width: 720px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    top: 6%;
+    left: 7%;
+    font-size: 32px;
+    font-family: "Palatino Linotype";
+    border: none;
+    outline: none;
+    caret-color: #546954;
+    color: #546954;
+    autocomplete: on;
+}
+input[type="text"]::placeholder{
+    font-size: 28px;
+}
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="search.css">
+	<title>Лечебные травы России</title>
+ </head>
+ <!-- Главная страница -->>
+ <body bgcolor="#7C997C">
+    <script src="./assets/images/bodymovin.json"></script>
+    <div class="animation" id="animation loading"></div>
+    <script>
+    var animation = bodymovin.loadAnimation({
+      container: document.getElementById('animation container'),
+      render: 'svg',
+      loop: true,
+      autoplay: true,
+      path: './assets/images/loading.json'
+    });
+    </script>
+    <h1 align="center">ЛЕЧЕБНЫЕ <br> ТРАВЫ РОССИИ</h1>
+</body>
+</html>

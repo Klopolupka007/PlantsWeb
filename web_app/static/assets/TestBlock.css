@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Palatino Linotype";
+    src: url("./assets/fonts/palatinolinotype_roman.ttf") format("ttf");
+    font-style: bold;
+    }
+@font-face {
+    font-family: "Palatino Linotype";
+    src: url("./assets/fonts/Palatino\ LT\ Roman.ttf") format("ttf");
+    font-style: normal;
+    }  
+
+
+.container {
+    width: 100%;
+    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.rectangle {
+    width: 100%;
+    height: 5%;
+    margin: 2% auto 0;
+    background-color: #C5CCAA;
+    border-radius: 100px;
+    border: solid #E7F0C8;
+    box-sizing: border-box;
+    position: relative;
+    /*box-shadow: 3px 5px 1px #5E735F;*/
+}
+.rectangle img {
+    width: 1/6%;
+    height: 80%;
+    /*argin-left: 1%;
+    margin-top: ;*/
+    top: 10%;
+    left: 0.5%;
+    user-select: none;
+    position: absolute;
+}
+
+input[type="text"] {
+    position: absolute;
+    width: 95%;
+    height: 98%;
+    background-color: rgba(255, 255, 255, 0);
+    left: 3%;
+    font-size: 100%;
+    font-family: "Palatino Linotype";
+    border: none;
+    outline: none;
+    caret-color: #546954;
+    color: #546954;
+}
+input[type="text"]::placeholder{
+    font-size: 100%;
+    position: absolute;
+    font-family: "Palatino Linotype";
+    top: 50%;
+    left: 3%;
+    transform: translateY(-45%);
+}

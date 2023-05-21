@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="/static/Hackthon.css">
+	<title>Лечебные травы России</title>
+</head>
+
+<body bgcolor="#7C997C">
+	<div class="main">
+		<div id="cbp-vm" class="cbp-vm-switcher cbp-vm-view-grid">
+            <div class="cbp-vm-options" style="margin-bottom: -10px;">
+                <h1 class="h1"><b>ЛЕКАРСТВЕННЫЕ РАСТЕНИЯ</h1>
+                <button id="sidebarCollapse" class="float-end" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" role="button" aria-label="Toggle menu"> <span class="span"></span> <span></span> <span></span> <span></span> </div>
+			<ul>
+				{% for item in plants_data %}
+				<li class="block"> <img src="/static/1.png">
+					<h3 class="cbp-vm-title">{{ item["name"] }}</h3>
+					<div class="cbp-vm-price">$300</div>
+					<!--Trigger-->
+					<a href="#win1">Подробнее</a>
+				</li>
+                <a href="#x" class="overlay" id="win1"></a>
+				<!--HARDCODED-->
+                <div class="popup">
+					<b>Ареал:</b> {{ item["areal"] | capitalize}}
+					<br>
+					<b>Почва:</b> {{ item["soil"] | capitalize }}
+					<br>
+					<b>Период сбора семян:</b> {{ item["harvesting_period"] | capitalize }}
+					<br>
+					<b>Период посева семян:</b> {{ item["harvesting_period"] | capitalize }} 
+					<br>
+					<b>Фармакопея:</b> {{ item["is_in_pharmacopeia"] | capitalize }}
+					<a class="close"title="Закрыть" href="#close"></a>
+				</div>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<!-- /main -->
+	<nav class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" data-bs-keyboard="false" data-bs-backdrop="true" data-bs-scroll="true">
+		<div class="offcanvas-header border-bottom">
+			<a href="" class="d-flex align-items-center text-decoration-none offcanvas-title d-sm-block">
+				<h1>
+                <i class="bi bi-chat-right-text-fill"></i>
+                Фильтры
+                </h1> </a>
+		</div>
+		<div class="offcanvas-body px-0">
+			<ul class="list-unstyled ps-0">
+				<li class="mb-1">
+					<!--<input type="text" placeholder="Введите название растения" id="search_text">
+					<script>
+					var input = document.getElementById("search_text");
+					input.addEventListener("keyup", function(event) {
+						if(event.keyCode === 13) {
+							event.preventDefault();
+							getValue();
+						}
+					});
+
+					function getValue() {
+						var userInput = input.value;
+					}
+					</script>-->
+					<li class="mb-1 mt-2">
+						<button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false"> Географические данные </button>
+						<div class="collapse show" id="home-collapse" style="">
+							<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+								<li>
+									<button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#areal-collapse" aria-expanded="false"> Ареалы произростания </button>
+									<div class="collapse" id="areal-collapse">
+										<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+											<li>
+												<label>
+													<input type="checkbox" name="areal" value="Европа" /> Европа </label>
+											</li>
+											<li>
+												<label>
+													<input type="checkbox" name="areal" value="Азия" class="checkbox_text" /> Азия </label>
+											</li>
+											<li>
+												<label>
+													<input type="checkbox" name="areal" value="Африка" /> Африка </label>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<button class="btn btn-toggle align-items-center rounded" data-bs-toggle="collapse" data-bs-target="#subject-collapse" aria-expanded="false"> Субъекты РФ </button>
+								<div class="collapse" id="subject-collapse">
+									<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+										<li>
+											<label>
+												<input type="checkbox" name="subject" value="Московская область" /> Московская область </label>
+										</li>
+										<li>
+											<label>
+												<input type="checkbox" name="subject" value="Санкт-Петербург" /> Санкт-Петербург </label>
+										</li>
+										<li>
+											<label>
+												<input type="checkbox" name="subject" value="Краснодарский край" /> Краснодарский край </label>
+										</li>
+									</ul>
+								</div>
+					</li>
+					</ul>
+					</div>
+				</li>
+				<li class="border-top my-3"></li>
+				<li class="mb-1 mt-2">
+					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false"> Типы почв </button>
+					<div class="collapse" id="dashboard-collapse">
+						<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Московская область" /> Подзолистый </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Санкт-Петербург" /> Песчаный </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Чернозем </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Лесной </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Болотный </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Луговой </label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="subject" value="Краснодарский край" /> Тундровый </label>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="border-top my-3"></li>
+				<li class="mb-1 mt-2">
+					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#daylength-collapse" aria-expanded="false"> Данные о световом режиме </button>
+					<div class="collapse" id="daylength-collapse">
+						<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+							<li>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#winter-daylength" role="button" aria-expanded="false" aria-controls="winter-daylength">— Долгота дня зимой</a>
+								<div class="collapse" id="winter-daylength">
+									<div class="row mt-2">
+										<div class="col">
+											<input type="text" id="winter-daylength-input" class="form-control rounded" placeholder="Часы">
+										</div>
+									</div>
+								</div>
+							</li>
+						   <li>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#spring-daylength" role="button" aria-expanded="false" aria-controls="spring-daylength">— Долгота дня весной</a>
+								<div class="collapse" id="spring-daylength">
+									<div class="row mt-2">
+										<div class="col">
+											<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Часы">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#summer-daylength" role="button" aria-expanded="false" aria-controls="summer-daylength">— Долгота дня летом</a>
+								<div class="collapse" id="summer-daylength">
+									<div class="row mt-2">
+										<div class="col">
+											<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Часы">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#autumn-daylength" role="button" aria-expanded="false" aria-controls="autumn-daylength">— Долгота дня осенью</a>
+								<div class="collapse" id="autumn-daylength">
+									<div class="row mt-2">
+                        				<div class="col">
+                            				<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Часы">
+                        				</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="border-top my-3"></li>
+				<li class="mb-1 mt-2">
+					<button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false"> Данные о культуре </button>
+					<div class="collapse" id="account-collapse">
+						<ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+						   <li>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#spring-daylength" role="button" aria-expanded="false" aria-controls="spring-daylength">— Период посева, мес.</a>
+								<div class="collapse" id="spring-daylength">
+									<div class="row mt-2">
+										<div class="col">
+											<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Месяц">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#spring-daylength" role="button" aria-expanded="false" aria-controls="spring-daylength">— Период сбора урожая, мес.</a>
+								<div class="collapse" id="spring-daylength">
+									<div class="row mt-2">
+										<div class="col">
+											<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Месяц">
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<a class="nav-link pb-1 text-decoration-none" data-bs-toggle="collapse" href="#spring-daylength" role="button" aria-expanded="false" aria-controls="spring-daylength">— Содержание БАВ, хим. состав</a>
+								<div class="collapse" id="spring-daylength">
+									<div class="row mt-2">
+										<div class="col">
+											<input type="text" id="winter-daylength-input" class="form-control rounded col-4" placeholder="Хим. состав">
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="border-top my-3"></li>
+			</ul>
+		</div>
+	</nav>
+	<script>
+	document.getElementById("sidebarCollapse").setAttribute("aria-expanded", "false");
+	</script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

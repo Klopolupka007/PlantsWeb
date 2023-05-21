@@ -1,0 +1,804 @@
+{
+    "obj_list": [
+        {
+            "name": "АИР ОБЫКНОВЕННЫЙ",
+            "areal": "северо-восточная азия",
+            "soil": "стелющиеся кустарники и высокотравная растительность",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "АЛОЭ ДРЕВОВИДНОЕ",
+            "areal": "Нет информации",
+            "soil": "илистые и аллювиальные",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "АЛТЕЙ ЛЕКАРСТВЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "скалистый",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "АММИ БОЛЬШАЯ",
+            "areal": "Европейская часть России",
+            "soil": "пески",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "АММИ ЗУБНАЯ",
+            "areal": "Нет информации",
+            "soil": "пески",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "АНИС ОБЫКНОВЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "легкие почвы с небольшим количеством питательных веществ",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "АРАЛИЯ ВЫСОКАЯ",
+            "areal": "Нет информации",
+            "soil": "плодородный",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "АРНИКА ГОРНАЯ",
+            "areal": "Нет информации",
+            "soil": "богатые, хорошо увлажненные почвы",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "АРНИКА ШАМИССО",
+            "areal": "Нет информации",
+            "soil": "субальпийские, горно-луговые и дерново-подзолистые",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "АРОНИЯ ЧЕРНОПЛОДНАЯ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "АСТРАГАЛ ШЕРСТИСТОЦВЕТКОВЫЙ",
+            "areal": "Украина, Молдова, Болгария, Румыния, Венгрия, Сербия",
+            "soil": "Нет информации",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БАГУЛЬНИК БОЛОТНЫЙ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БАДАН ТОЛСТОЛИСТНЫЙ",
+            "areal": "северо-восточная азия",
+            "soil": "травянисто-кустарниковый ярус",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БАРАНЕЦ ОБЫКНОВЕННЫЙ",
+            "areal": "Сихотэ-Алинь",
+            "soil": "каменистый",
+            "harvesting_period": "Июнь Июль",
+            "seed_soving_period": "весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БАРБАРИС ОБЫКНОВЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "кислый",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БАРВИНОК МАЛЫЙ",
+            "areal": "Восточное и Южное Закавказье",
+            "soil": "Нет информации",
+            "harvesting_period": "с конца сентября до середины октября",
+            "seed_soving_period": "перед зимой",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БАРХАТ АМУРСКИЙ",
+            "areal": "Кавказ, Западная Азия и Южная Европа",
+            "soil": "супеси",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "3 месяца",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БЕДРЕНЕЦ КАМНЕЛОМКА",
+            "areal": "Южный Сахалин и Южные Курилы",
+            "soil": "поймы и пойменные террасы",
+            "harvesting_period": "середина зимы",
+            "seed_soving_period": "Весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БЕЗВРЕМЕННИК ВЕЛИКОЛЕПНЫЙ",
+            "areal": "Нет информации",
+            "soil": "травянистые луга, перелоги",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Входит"
+        },
+        {
+            "name": "БЕЛЕНА ЧЕРНАЯ",
+            "areal": "Абхазия",
+            "soil": "Нет информации",
+            "harvesting_period": "конец лета и осень",
+            "seed_soving_period": "Июль Август",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БЕЛОКОПЫТНИК ГИБРИДНЫЙ",
+            "areal": "Нет информации",
+            "soil": "на мелководье, гальке, парах",
+            "harvesting_period": "как только первые коробочки достигнут фазы созревания",
+            "seed_soving_period": "перед зимой после наступления устойчивого похолодания или ранней весной",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БЕРЁЗА ПОВИСЛАЯ",
+            "areal": "Нет информации",
+            "soil": "песчаные и глинистые влажные почвы",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "БЕССМЕРТНИК ПЕСЧАНЫЙ",
+            "areal": "Восточная Сибирь и в Приамурье",
+            "soil": "песчаные, суглинистые, черноземные и каменисто-щебнистые",
+            "harvesting_period": "Лето",
+            "seed_soving_period": "Лето",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БОРЕЦ СЕВЕРНЫЙ",
+            "areal": "Нет информации",
+            "soil": "известняки и песчаные дюны",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БОЯРЫШНИК КРОВАВО-КРАСНЫЙ",
+            "areal": "Нет информации",
+            "soil": "рыхлые легкосуглинистые и супесчаные бурые лесные почвы",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БРИОФИЛЛУМ ПЕРИСТЫЙ",
+            "areal": "Калининградская область",
+            "soil": "скалистые склоны",
+            "harvesting_period": "Октябрь",
+            "seed_soving_period": "зима",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БРУСНИКА ОБЫКНОВЕННАЯ",
+            "areal": "Нет информации",
+            "soil": "супесчаный",
+            "harvesting_period": "когда они достигают высоты 1 м",
+            "seed_soving_period": "февраль",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "БУЗИНА ЧЕРНАЯ",
+            "areal": "Нет информации",
+            "soil": "каменистые россыпи",
+            "harvesting_period": "в конце сентября",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ВАЛЕРИАНА ЛЕКАРСТВЕННАЯ",
+            "areal": "Нет информации",
+            "soil": "влажный плодородный",
+            "harvesting_period": "3 года",
+            "seed_soving_period": "весна",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "ВАСИЛЕК БЛАГОСЛОВЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "торфяные и осоковые болота",
+            "harvesting_period": "падать",
+            "seed_soving_period": "5-1 см. Перед зимой",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ВАСИЛЕК ПОСЕВНОЙ",
+            "areal": "Нет информации",
+            "soil": "суглинистый, глинистый и лёссовый",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "ранней весной или поздней осенью",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ВАХТА ТРЕХЛИСТНАЯ",
+            "areal": "Крым, Кавказ и Средняя Азия",
+            "soil": "песчаный и супесчаный",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ВЕРБЕНА ЛЕКАРСТВЕННАЯ",
+            "areal": "Нет информации",
+            "soil": "торфянистые почвы или на чистом торфе",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ВЗДУТОПЛОДНИК СИБИРСКИЙ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "Сразу после сбора",
+            "seed_soving_period": "Маршировать",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ВИНОГРАД КУЛЬТУРНЫЙ",
+            "areal": "те же районы",
+            "soil": "горный каштан, сильно щебнистый",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ВОДОСБОР ОБЫКНОВЕННЫЙ",
+            "areal": "северные районы",
+            "soil": "легкие почвы",
+            "harvesting_period": "с середины августа до середины октября",
+            "seed_soving_period": "Май Июнь",
+            "is_in_pharmacopeia": "Входит"
+        },
+        {
+            "name": "ВОЛОДУШКА ЗОЛОТИСТАЯ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "осень",
+            "seed_soving_period": "осень",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГАМАМЕЛИС ВИРГИНСКИЙ",
+            "areal": "Нет информации",
+            "soil": "горные склоны",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГАРМАЛА ОБЫКНОВЕННАЯ",
+            "areal": "южный Китай",
+            "soil": "Нет информации",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "семена. В условиях средней полосы России всходы появляются только на второй год.",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГОРЕЦ ЗМЕИНЫЙ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГОРЕЦ ПЕРЕЧНЫЙ",
+            "areal": "высоты от 1500 до 3500 м над уровнем моря",
+            "soil": "торфянистый",
+            "harvesting_period": "третий год после посадки",
+            "seed_soving_period": "осень",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГОРЕЦ ПОЧЕЧУЙНЫЙ",
+            "areal": "Нет информации",
+            "soil": "влажные почвы орошаемых полей",
+            "harvesting_period": "сухая погода",
+            "seed_soving_period": "перед зимой или ранней весной",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГОРЕЦ ПТИЧИЙ",
+            "areal": "Нет информации",
+            "soil": "илистые отложения",
+            "harvesting_period": "сбор урожая",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГОРЕЧАВКА ЖЁЛТАЯ",
+            "areal": "Нет информации",
+            "soil": "песчаный и гравийный",
+            "harvesting_period": "сухая погода",
+            "seed_soving_period": "весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГОРИЦВЕТ ВЕСЕННИЙ",
+            "areal": "Нет информации",
+            "soil": "мертвые побеги и снег",
+            "harvesting_period": "через 4-5 лет после посадки в поле",
+            "seed_soving_period": "120-130 дней",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГОРЧИЦА САРЕПТСКАЯ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "4-5 лет",
+            "seed_soving_period": "сухая весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ГРЕЧИХА СЪЕДОБНАЯ",
+            "areal": "Африка (Алжир, Египет), Юго-Западная Азия и Южная Азия",
+            "soil": "черноземы. Тяжелые плавучие и засоленные почвы",
+            "harvesting_period": "4-5 лет",
+            "seed_soving_period": "ранняя весна",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "ГРЫЖНИК ГЛАДКИЙ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "при побурении 67-75% плодов на растениях",
+            "seed_soving_period": "после окончания морозного периода",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "ДЕВЯСИЛ ВЫСОКИЙ",
+            "areal": "Нет информации",
+            "soil": "легкие почвы",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ДЕСМОДИУМ КАНАДСКИЙ",
+            "areal": "Нет информации",
+            "soil": "богатые известью почвы",
+            "harvesting_period": "конец августа",
+            "seed_soving_period": "осень",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ДИОСКОРЕЯ НИППОНСКАЯ",
+            "areal": "Нет информации",
+            "soil": "находятся в почве",
+            "harvesting_period": "когда созреет 40-50% зерен",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ДОННИК ЛЕКАРСТВЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "старый пар",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ДУБ ОБЫКНОВЕННЫЙ",
+            "areal": "запад европейской части России",
+            "soil": "пустоши",
+            "harvesting_period": "Август",
+            "seed_soving_period": "Август",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ДУРМАН ИНДЕЙСКИЙ",
+            "areal": "цветы",
+            "soil": "каменистая, иногда довольно сухая, богатая известью",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ДУРМАН ОБЫКНОВЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "чернозем",
+            "harvesting_period": "Август сентябрь",
+            "seed_soving_period": "апрель",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ДУРНИШНИК ОБЫКНОВЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "богатый, рыхлый и довольно влажный",
+            "harvesting_period": "когда появляются плоды на первой вилке",
+            "seed_soving_period": "весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ДУШИЦА ОБЫКНОВЕННАЯ",
+            "areal": "Северная, Центральная и Южная Америка",
+            "soil": "влажный песчаный",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Входит"
+        },
+        {
+            "name": "ДУДНИК ЛЕКАРСТВЕННЫЙ",
+            "areal": "Россия, распространен в европейской части",
+            "soil": "Нет информации",
+            "harvesting_period": "фаза массового созревания",
+            "seed_soving_period": "ранняя весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЕЛЬ ОБЫКНОВЕННАЯ",
+            "areal": "А. архангелика",
+            "soil": "богатые гумусом, часто илистые, луговые почвы",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЖЕЛТУШНИК РАСКИДИСТЫЙ",
+            "areal": "Россия, Китай и Северная Корея",
+            "soil": "известняки",
+            "harvesting_period": "Октябрь",
+            "seed_soving_period": "март-начало апреля",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЖЕНЬШЕНЬ",
+            "areal": "Нет информации",
+            "soil": "известняки",
+            "harvesting_period": "вторая половина июня",
+            "seed_soving_period": "вторая половина июня",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЖОСТЕРСЛАБИТЕЛЬНЫЙ",
+            "areal": "Нет информации",
+            "soil": "известковый",
+            "harvesting_period": "Сентябрь",
+            "seed_soving_period": "конец апреля-начало мая",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЗАМАНИХА ВЫСОКАЯ",
+            "areal": "Нет информации",
+            "soil": "известковый",
+            "harvesting_period": "приносит плоды",
+            "seed_soving_period": "осень",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЗВЕРОБОЙ ПРОДЫРЯВЛЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "надземные побеги",
+            "harvesting_period": "ежегодный",
+            "seed_soving_period": "следующей весной",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЗЕМЛЯНИКА ЛЕСНАЯ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "6-7 месяцев",
+            "seed_soving_period": "Ранняя весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЗМЕЕГОЛОВНИК МОЛДАВСКИЙ",
+            "areal": "Нет информации",
+            "soil": "заросли кустарников и старые гари",
+            "harvesting_period": "в течение всего лета",
+            "seed_soving_period": "зима",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЗОЛОТАРНИК КАНАДСКИЙ",
+            "areal": "Нет информации",
+            "soil": "чернозем",
+            "harvesting_period": "6-8 дней",
+            "seed_soving_period": "ранняя весна",
+            "is_in_pharmacopeia": "Входит"
+        },
+        {
+            "name": "ЗОЛОТОТЫСЯЧНИК ОБЫКНОВЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "весна",
+            "seed_soving_period": "ранней весной",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЗЮЗНИК ЕВРОПЕЙСКИЙ",
+            "areal": "Нет информации",
+            "soil": "щелочные почвы",
+            "harvesting_period": "вторая половина июля",
+            "seed_soving_period": "середина сентября",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ИСТОД ТОНКОЛИСТНЫЙ",
+            "areal": "Черноземная зона Российской Федерации",
+            "soil": "аллювиальные экотопы",
+            "harvesting_period": "июнь-август",
+            "seed_soving_period": "130 дней",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "КАЛИНА ОБЫКНОВЕННАЯ",
+            "areal": "Нет информации",
+            "soil": "каменистые, слегка задернованные склоны и скалы",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КАТАРАНТУС РОЗОВЫЙ",
+            "areal": "Южное Приморье, Амурская область",
+            "soil": "хвойные, лиственные и смешанные леса",
+            "harvesting_period": "пять",
+            "seed_soving_period": "осенью в сентябре или весной до середины мая",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КОНСКИЙ КАШТАН ОБЫКНОВЕННЫЙ",
+            "areal": "Нет информации",
+            "soil": "субтропические подзолистые почвы и красноземы",
+            "harvesting_period": "начало сентября",
+            "seed_soving_period": "середина апреля",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КОПЕЕЧНИК АЛЬПИЙСКИЙ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "Сентябрь",
+            "seed_soving_period": "весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КОПЫТЕНЬ ЕВРОПЕЙСКИЙ",
+            "areal": "Нет информации",
+            "soil": "влажные и богатые гумусом луговые почвы",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Зима",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КОРИАНДР ПОСЕВНОЙ",
+            "areal": "Нет информации",
+            "soil": "известняк, сланец, силикат и вулканические породы",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КОРОВЯК ГУСТОЦВЕТКОВЫЙ",
+            "areal": "Нет информации",
+            "soil": "черноземы",
+            "harvesting_period": "своевременно",
+            "seed_soving_period": "ранней весной, летом или в конце августа",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КРАПИВА ДВУДОМНАЯ",
+            "areal": "Закавказье",
+            "soil": "легкий, песчаный, супесчаный",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КРАСАВКА ОБЫКНОВЕННАЯ",
+            "areal": "Восточная Сибирь и Дальний Восток",
+            "soil": "щебнистые и сухие почвы",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КРОВОХЛЁБКА ЛЕКАРСТВЕННАЯ",
+            "areal": "Кавказ",
+            "soil": "гумусовые почвы",
+            "harvesting_period": "один день",
+            "seed_soving_period": "зима",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КРУШИНА ОЛЬХОВИДНАЯ",
+            "areal": "Приморье",
+            "soil": "болота",
+            "harvesting_period": "лето",
+            "seed_soving_period": "весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КУБЫШКА ЖЁЛТАЯ",
+            "areal": "Нет информации",
+            "soil": "ил",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "КУКУРУЗА ОБЫКНОВЕННАЯ",
+            "areal": "Нет информации",
+            "soil": "ил",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "ЛАБАЗНИК ВЯЗОЛИСТНЫЙ",
+            "areal": "Нет информации",
+            "soil": "придаточные корни",
+            "harvesting_period": "раннеспелые и среднеранние",
+            "seed_soving_period": "Глубина посева",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛАБАЗНИК ОБЫКНОВЕННЫЙ",
+            "areal": "по вентральному шву",
+            "soil": "перегнойные суглинистые и среднесуглинистые",
+            "harvesting_period": "5-7 дней после таяния снега",
+            "seed_soving_period": "зима",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛАМИНАРИЯ ЯПОНСКАЯ",
+            "areal": "Дальний Восток и Восточная Сибирь",
+            "soil": "сухие луга, в степных районах",
+            "harvesting_period": "осень",
+            "seed_soving_period": "осень",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "ЛАНДЫШ КЕЙСКЕ",
+            "areal": "северные моря России",
+            "soil": "каменистая или каменистая почва",
+            "harvesting_period": "Октябрь",
+            "seed_soving_period": "Октябрь",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛАНДЫШ МАЙСКИЙ",
+            "areal": "Нет информации",
+            "soil": "лугово-степной до влажно-луговой",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛАПЧАТКА БЕЛАЯ",
+            "areal": "Забайкалье, Иркутская область и Дальний Восток",
+            "soil": "песчаный и песчаный",
+            "harvesting_period": "падать",
+            "seed_soving_period": "весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛАПЧАТКА ПРЯМОСТОЯЧАЯ",
+            "areal": "Нет информации",
+            "soil": "песчаный и суглинистый",
+            "harvesting_period": "падать",
+            "seed_soving_period": "май-апрель",
+            "is_in_pharmacopeia": "Входит"
+        },
+        {
+            "name": "ЛАПЧАТКА СЕРЕБРИСТАЯ",
+            "areal": "Нет информации",
+            "soil": "кислая, бедная гумусом",
+            "harvesting_period": "через 4-5 лет после посева",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Нет информации"
+        },
+        {
+            "name": "ЛЁН ПОСЕВОЙ",
+            "areal": "Нет информации",
+            "soil": "сухие, каменистые, щебнистые и мелкоземные склоны",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛЕСПЕДЕЦА ДВУЦВЕТНАЯ",
+            "areal": "Нет информации",
+            "soil": "суглинистый",
+            "harvesting_period": "После созревания",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛЕСПЕДЕЦА КОПЕЕЧНИКОВАЯ",
+            "areal": "Нет информации",
+            "soil": "хорошо дренированный и гравийный",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "конец мая",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛИМОННИК КИТАЙСКИЙ",
+            "areal": "ряд местообитаний на сухих каменистых склонах и по долинам рек",
+            "soil": "песчано-галечные долинные отложения",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛИПА СЕРДЦЕВИДНАЯ",
+            "areal": "Нет информации",
+            "soil": "гумус",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "ранняя весна",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛОМОНОС ВИНОГРАДОЛИСТНЫЙ",
+            "areal": "Европейская часть России",
+            "soil": "богатые почвы",
+            "harvesting_period": "ежегодно",
+            "seed_soving_period": "Июль Август",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "ЛОПУХ БОЛЬШОЙ",
+            "areal": "Нет информации",
+            "soil": "Нет информации",
+            "harvesting_period": "Нет информации",
+            "seed_soving_period": "Нет информации",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "МАГНОЛИЯ КРУПНОЦВЕТКОВАЯ",
+            "areal": "Нет информации",
+            "soil": "богатая гумусом, достаточно влажная почва",
+            "harvesting_period": "конец июня - начало июля",
+            "seed_soving_period": "падать",
+            "is_in_pharmacopeia": "Не входит"
+        },
+        {
+            "name": "МАКЛЕЯ СЕРДЦЕВИДНАЯ",
+            "areal": "Нет информации",
+            "soil": "суглинистый",
+            "harvesting_period": "конец июня - начало июля",
+            "seed_soving_period": "падать",
+            "is_in_pharmacopeia": "Не входит"
+        }
+    ]
+}
